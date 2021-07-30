@@ -1,5 +1,6 @@
 {
   "name": "pro-mern-stack-2-ui",
+  "proxy": "https://tracker-api-qingzhao.herokuapp.com",
   "version": "1.0.0",
   "description": "Pro MERN Stack (2nd Edition) - UI",
   "main": "index.js",
