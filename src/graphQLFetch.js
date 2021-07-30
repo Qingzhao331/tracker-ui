@@ -36,6 +36,6 @@ graphQLFetch(query, variables = {}, showError = null, cookie = null) {
     return result.data;
   } catch (e) {
     if (showError) showError(`Error in sending data to server: ${e.message}`);
-    return null;
   }
+  return null;
 }
