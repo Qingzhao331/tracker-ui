@@ -55,6 +55,7 @@ app.get('/env.js', (req, res) => {
     UI_AUTH_ENDPOINT: process.env.UI_AUTH_ENDPOINT,
     GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
   };
+  res.set('Content-Type', 'application/javascript');
   res.send(`window.ENV = ${JSON.stringify(env)}`);
 });
 
